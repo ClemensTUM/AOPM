@@ -17,17 +17,17 @@ INSERT INTO customer (customer_name) VALUES
 ("Jack Wilson"),
 ("Theresa Lagos");
 
-
-UPDATE customer SET customer_email = "a.heckl@hotmail.de" WHERE customer_id = 1;
-UPDATE customer SET customer_email = "asgeirebybembo@web.de" WHERE customer_id = 2;
-UPDATE customer SET customer_email = "heckla@in.tum.de" WHERE customer_id = 3;
-UPDATE customer SET customer_email = "heckla@cs.tum.edu" WHERE customer_id = 4;
-UPDATE customer SET customer_email = "heckla@informatik.tu-muenchen.de" WHERE customer_id = 5;
-UPDATE customer SET customer_email = "andreas.heckl@in.tum.de" WHERE customer_id = 6;
-UPDATE customer SET customer_email = "andreas.heckl@cs.tum.edu" WHERE customer_id = 7;
-UPDATE customer SET customer_email = "andreas.heckl@informatik.tu-muenchen.de" WHERE customer_id = 8;
-UPDATE customer SET customer_email = "andi808@outlook.de" WHERE customer_id = 9;
-UPDATE customer SET customer_email = "ga48qeb@mytum.de" WHERE customer_id = 10;
+--customer_email changed
+UPDATE customer SET customer_email = "customer_1@mail.de" WHERE customer_id = 1;
+UPDATE customer SET customer_email = "customer_2@mail.de" WHERE customer_id = 2;
+UPDATE customer SET customer_email = "customer_3@mail.de" WHERE customer_id = 3;
+UPDATE customer SET customer_email = "customer_4@mail.de" WHERE customer_id = 4;
+UPDATE customer SET customer_email = "customer_5@mail.de" WHERE customer_id = 5;
+UPDATE customer SET customer_email = "customer_6@mail.de" WHERE customer_id = 6;
+UPDATE customer SET customer_email = "customer_7@mail.de" WHERE customer_id = 7;
+UPDATE customer SET customer_email = "customer_8@mail.de" WHERE customer_id = 8;
+UPDATE customer SET customer_email = "customer_9@mail.de" WHERE customer_id = 9;
+UPDATE customer SET customer_email = "customer_10@mail.de" WHERE customer_id = 10;
 
 
 INSERT INTO bike_type_distr VALUES (1, 0.86), (2, 0.08), (3, 0.06);
