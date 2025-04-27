@@ -19,15 +19,6 @@ import SPD_db_functions as DBF
 
 log = logging.getLogger("SPD_simulate_continuously.py")
 
-"""
-Anmerkung: Diese Funktion (send_exception_mail()) sollte ausgefuehrt werden, falls im Skript eine Exception autritt.
-Es soll eine Email Benachrichtigung an mich (a.heckl@hotmail.de) versendet werden. Auf meinem Linux Laptop funktioniert das auch, allerdings
-nicht vom Linode Server aus. Das haengt wohl mit den Firewall Einstellungen zusammen, ich habe das leider nicht hinbekommen.
-Da auf dem TUM Server sowieso nochmal strengere Sicherheitsvorschriften gelten und alles ueber VPn laueft, wusste ich, dass selbst wenn ich es auf dem Linode hinbekomme, 
-das lange noch nicht bedeutet, dass es auch auf dem TUM Server geht. Deswegen habe ich es auch nicht weiter verfolgt. 
-Ich will hier nur darstellen wie die eine sinnvolle Funktion zur Benachrichtigung ausssieht und dass ich daran gedacht hab, dass eine solche Benachrichtigung wichtig ist.
-"""
-
 #code for this funciton is largely based on
 #https://www.c-sharpcorner.com/article/send-email-through-python-console-with-gmail-hotmail-and-ya/
 #accessed 19.02.2022
