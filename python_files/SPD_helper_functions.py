@@ -32,14 +32,18 @@ Ich will hier nur darstellen wie die eine sinnvolle Funktion zur Benachrichtigun
 #https://www.c-sharpcorner.com/article/send-email-through-python-console-with-gmail-hotmail-and-ya/
 #accessed 19.02.2022
 def send_exception_mail():
-    user = 'mysql.server.bachelor.thesis@outlook.de'
-    pwd = 'Jeter2Berra8!'
+    #username changed
+    #password changed
+    user = 'username'
+    pwd = 'password'
 
     mail_text = "Bitte pruefen Sie das Logfile, korrigieren Sie das Skript entsprechend und starten es erneut."
     subject = "Exception im Python Skript"
 
-    MAIL_FROM = "mysql.server.bachelor.thesis@outlook.de"
-    RCP_TO = "a.heckl@hotmail.de"
+    #MAIL_FROM changed
+    #RCP_TO changed
+    MAIL_FROM = "MAIL_FROM"
+    RCP_TO = "RCP_TO"
 
     DATA = "From:%s\nTo:%s\nSubject:%s\n\n%s" % (MAIL_FROM, RCP_TO, subject, mail_text)
 
