@@ -9,8 +9,10 @@ import email
 from email.header import decode_header
 import os
 
-username = "mysql.server.bachelor.thesis@outlook.de"
-password = "Jeter2Berra8!"
+#username changed
+username = "username"
+#password changed
+password = "password"
 
 
 """
